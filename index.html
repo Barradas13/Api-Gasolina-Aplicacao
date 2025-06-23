@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gasolina</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+      <h1>Qual o preço que você vai gastar na gasolina?</h1>
+  
+      <label for="kilometros">Digite a quantidade de kilometros que você fará:
+        <input id="kilometros" type="number" min="0" />
+      </label>
+  
+      <label for="litrosporkm">Digite quantos kilometros seu carro faz por litro:
+        <input id="litrosporkm" type="number" min="0" />
+      </label>
+  
+      <button id="enviar">Enviar</button>
+  
+      <p id="resposta"></p>
+    </div>
+  
+    <script defer src="script.js"></script>
+  </body>
+</html>
